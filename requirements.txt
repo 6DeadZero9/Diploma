@@ -1,0 +1,5 @@
+django_environ
+pyserial
+matplotlib
+https://github.com/KumaTea/tensorflow-aarch64/releases/download/v2.6/tensorflow-2.6.0-cp39-cp39-linux_aarch64.whl
+keras==2.6.0

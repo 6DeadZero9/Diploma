@@ -1,0 +1,10 @@
+version: "3"
+services:
+  arm_prosthetic:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    restart: always
+    command: python3 rpi_zero_soft_arm/main.py
+    devices:
+     - /dev/serial0:/dev/serial0
