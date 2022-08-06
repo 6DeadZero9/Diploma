@@ -1,5 +1,6 @@
 django_environ
 pyserial
 matplotlib
+https://releases.linaro.org/components/ldcg/tensorflow-aarch64/r2.7.0/h5py/h5py-3.1.0-cp39-cp39-linux_aarch64.whl
 https://github.com/KumaTea/tensorflow-aarch64/releases/download/v2.6/tensorflow-2.6.0-cp39-cp39-linux_aarch64.whl
 keras==2.6.0
