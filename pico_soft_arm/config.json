@@ -1,0 +1,39 @@
+{
+    "big_finger": {
+        "min": 30000,
+        "max": 65000,
+        "pwm_pin": 15,
+        "dirr_pin": 14,
+        "initial_dirr": true
+    },
+    "index_finger": {
+        "min": 52300,
+        "max": 7700,
+        "pwm_pin": 12,
+        "dirr_pin": 13,
+        "initial_dirr": true       
+    },
+    "middle_finger": {
+        "min": 41800,
+        "max": 380,
+        "pwm_pin": 10,
+        "dirr_pin": 11,
+        "initial_dirr": true     
+    },
+    "no_name_finger": {
+        "min": 34300,
+        "max": 330,
+        "pwm_pin": 6,
+        "dirr_pin": 7,
+        "initial_dirr": true      
+    },
+    "pinky_finger": {
+        "min": 29500,
+        "max": 350,
+        "pwm_pin": 8,
+        "dirr_pin": 9,
+        "initial_dirr": true       
+    }
+}
+
+
