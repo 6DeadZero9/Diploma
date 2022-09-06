@@ -1,39 +1,45 @@
 {
     "big_finger": {
-        "min": 30000,
+        "pot_index": 0,
+        "emg_index": 5,
+        "min": 25000,
         "max": 65000,
-        "pwm_pin": 15,
-        "dirr_pin": 14,
-        "initial_dirr": true
+        "IA1": 14,
+        "IA2": 15
     },
     "index_finger": {
-        "min": 52300,
-        "max": 7700,
-        "pwm_pin": 12,
-        "dirr_pin": 13,
-        "initial_dirr": true       
+        "pot_index": 1,
+        "emg_index": 6,
+        "min": 35000,
+        "max": 90000,
+        "IA1": 10,
+        "IA2": 11   
     },
     "middle_finger": {
-        "min": 41800,
-        "max": 380,
-        "pwm_pin": 10,
-        "dirr_pin": 11,
-        "initial_dirr": true     
+        "pot_index": 2,
+        "emg_index": 7,
+        "min": 46500,
+        "max": 90000,
+        "IA1": 12,
+        "IA2": 13    
     },
     "no_name_finger": {
-        "min": 34300,
-        "max": 330,
-        "pwm_pin": 6,
-        "dirr_pin": 7,
-        "initial_dirr": true      
+        "pot_index": 3,
+        "emg_index": 8,
+        "min": 48000,
+        "max": 90000,
+        "IA1": 8,
+        "IA2": 9      
     },
     "pinky_finger": {
-        "min": 29500,
-        "max": 350,
-        "pwm_pin": 8,
-        "dirr_pin": 9,
-        "initial_dirr": true       
+        "pot_index": 4,
+        "emg_index": 8,
+        "min": 46000,
+        "max": 90000,
+        "IA1": 6,
+        "IA2": 7      
     }
 }
+
 
 
